@@ -1,0 +1,144 @@
+body{
+    background-image: url('../../assets/images/background1.jpg');
+    background-size: 100%;
+    margin-left: 0px;
+    margin-right:0px;
+    margin-top:0px;
+    margin-bottom: 0px;
+    width:auto;
+    height: auto;
+}
+
+.header{
+color:rgb(65, 236, 241);
+    font-family: 'Iceberg', cursive;
+    padding-left: 4.5%;
+width: 100%;
+align-self: center;
+background-image: url('../../assets/images/background3.jpg');
+
+font-size: 38px;
+border-style: solid;
+border-color: black;
+border-width: 3px;
+}
+
+.instructions{
+font-family: 'Iceberg', cursive;    
+position: fixed;
+    border-style: solid;
+    border-width: 3px;
+    border-color: black;
+    width: 68.5%;
+    margin-top: 4.5%;
+    margin-left: 4.5%;
+    margin-right: 0%;
+    height: auto;
+    color:rgb(65, 236, 241);
+    font-size: 18px;
+    padding-bottom: 0%;
+    background-image: url('../../assets/images/background3.jpg');
+
+}
+ul{
+    margin-top: 0%;
+}
+
+h2 {
+    align-self: center;
+}
+
+.instructions1{
+    
+    
+    margin-bottom: 0px;
+    margin-top: 0px;
+    align-content: center;
+    font-size: 30px;
+}
+
+#randomNumber{
+    font-family: 'Iceberg', cursive;
+    padding-top: 30%;
+    padding-left: 25%;
+    font-size: 75px;
+}
+
+.numberToMatch{
+    
+    left: 4.5%;
+    position: fixed;
+    bottom: 32.5%;
+    width: 225px;
+    height:225px;
+    background-image: url("../../assets/images/diamond.png");
+    color:black;
+    font-size: 30px;
+    border-style: solid;
+    border-color: black;
+    border-width: 3px;
+}
+
+.winsAndLosses{
+    font-family: 'Iceberg', cursive;
+    position: fixed;
+    top: 45%;
+    width:15%;
+    left:31%;
+    background-image: url("../../assets/images/background3.jpg");
+    color:rgb(65, 236, 241);
+    font-size: 25px;
+    height: 80px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: black;
+
+}
+.gemImage {
+    cursor: pointer;
+    padding-right: 4.5%;
+    padding-top: 4.5%;
+    padding-left: 4.5%;
+    padding-bottom: 4.5%;
+}
+
+.gems{
+    padding-left: 7.5%;
+    border-style: solid;
+    border-width: 3px;
+    border-color: black;
+    position: fixed;
+    top: 70%;
+    background-image: url('../../assets/images/background3.jpg');
+    left: 17%;
+    width: 35%;
+    height: auto;
+    
+}
+
+#userTotal1 {
+    font-family: 'Iceberg', cursive;
+    padding-top: 35%;
+    padding-left: 35%;
+    font-size: 75px;
+    color: #ffffff;
+}
+
+
+.Total{
+    align-content: center;
+    bottom: 32.5%;
+    left: 50%;
+    font-size: 30px;
+    position: fixed;
+    height: 225px;
+    width: 225px;
+    margin-left: 0%;
+    color: black;
+    background-image: url("../../assets/images/scorecart.png");
+    border-style: solid;
+    border-width: 3px;
+    border-color: black;
+    
+
+}

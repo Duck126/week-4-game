@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Crystal Collector</title>
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Bungee|Iceberg|Knewave|Monofett|Sunshiney|Zilla+Slab+Highlight" rel="stylesheet">
+
+
+
+
+
+</head>
+
+<body>
+
+    <div class="header">CrystalCollector!</div>
+    <div class="instructions">
+        <center>
+            <p class="instructions1">Instructions</p>
+        </center>
+        <br>
+        <ul>
+            <li>A random number will be assigned to the large diamond in the center.</li>
+            <li>The four gemstones below Ruby, Saphire, Emerald, and Topaz all will be assigned an unknown number.</li>
+            <li>By clicking on one of the gemstones, the value of that gemstone is added to your number.</li>
+            <li>The objective of the game is to click the right amount of gemstones to match the number assigned to the diamond.</li>
+            <li>Match the numbers and... You Win!... Go Over... No bueno...</li>
+            <li>PS...The numbers change every time!</li>
+        </ul>
+
+    </div>
+    <div class="numberToMatch">
+        <div id="randomNumber"></div>
+    </div>
+    <div class="winsAndLosses row">
+        <div class="numberWins col-md-6 col-lg-6">
+            <div class="scoreW"> </div>
+        </div>
+        <div class="numberLosses col-md-6 col-lg-6">
+            <div class="scoreL"></div>
+        </div>
+
+    </div>
+    <div class="gems">
+        <img src="assets/images/gem1.png" id="one" class="gemImage"></img>
+        <img src="assets/images/gem2.png" id="two" class="gemImage"></img>
+        <img src="assets/images/gem3.png" id="three" class="gemImage"></img>
+        <img src="assets/images/gem4.png" id="four" class="gemImage"></img>
+    </div>
+
+    <div class="Total">
+        <div id="userTotal1"></div>
+    </div>
+
+    <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
+</body>
+
+</html>
